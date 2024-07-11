@@ -1,4 +1,4 @@
- {
+{
     outline: 2px solid red;
 }
   
@@ -34,6 +34,8 @@ ul {
 .hero {
     display: flex;
     background-color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero a {
@@ -42,7 +44,70 @@ ul {
 
 .hero-left {
     display: flex;
+    flex: 1;
+    flex-direction: column;
     justify-content: center;
+    align-items: left;
+    padding-left: 90px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+
+.hero .splash {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero .sub {
+    font-size: 18px;
+    color: #E5E7eb;
+}
+
+.hero-right {
+    display: flex;
+    flex: 1;
+    padding-right: 90px;
+    justify-content: right;
     align-items: center;
-    padding: 30px;
+}
+
+.hero-right img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.topline {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 50px;
+
+}
+
+.sign {
+    color: #E5E7eb;
+    font-size: 22px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    margin: 15px;
+    padding: 8px 24px;
+    width: 135px;
+    justify-content: center;
+}
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    outline: 2px #3882F6;
+
+}
+.info img {
+    max-width: 150px;
+    min-height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
 }
